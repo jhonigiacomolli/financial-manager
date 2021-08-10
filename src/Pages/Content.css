@@ -1,0 +1,20 @@
+main.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 100px 1fr ;
+    grid-template-areas:
+        "totals"
+        "filter-data"
+        "list-data"
+    ;
+    background: var(--color-gray300);
+    max-height: calc(100vh - 60px);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.filter-data {
+    grid-area: filter-data;
+}
+.list-data {
+    grid-area: list-data;
+}

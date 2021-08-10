@@ -1,0 +1,118 @@
+.filter-data {
+    display: flex; 
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 30px 0px;
+    padding: 10px;
+    background-color: var(--color-gray400);
+    align-self: stretch;
+    text-align: center;
+}
+.filter-data label {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: var(--font-family-title);
+    color: var(--color-light-gray200);
+}
+.filter-data .filter-select {
+    margin: 0 5px ;
+    text-align: left;
+}
+.filter-data .react-datepicker-wrapper {
+    display: block;
+} 
+.filter-data .react-datepicker {
+    background-color: var(--color-gray400);
+    border: 1px solid var(--color-gray200);
+}
+.filter-data .react-datepicker__header {
+    background-color: var(--color-gray500);
+    color: var(--color-light-gray);
+    border-bottom: 1px solid var(--color-gray100);
+}
+.filter-data .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+    border-bottom-color: var(--color-gray200);
+}
+.filter-data .react-datepicker__current-month, .filter-data .react-datepicker-time__header, .filter-data .react-datepicker-year-header {
+    color: var(--color-light-gray);
+}
+.filter-data .react-datepicker__day-name, .filter-data .react-datepicker__day, .filter-data .react-datepicker__time-name {
+    color: var(--color-light-gray);
+}
+.filter-data .react-datepicker__day--selected, .filter-data .react-datepicker__day--in-selecting-range, .filter-data .react-datepicker__day--in-range, 
+.filter-data .react-datepicker__month-text--selected, .filter-data .react-datepicker__month-text--in-selecting-range, .filter-data .react-datepicker__month-text--in-range, 
+.filter-data .react-datepicker__quarter-text--selected, .filter-data .react-datepicker__quarter-text--in-selecting-range, .filter-data .react-datepicker__quarter-text--in-range, 
+.filter-data .react-datepicker__year-text--selected, .filter-data .react-datepicker__year-text--in-selecting-range, .filter-data .react-datepicker__year-text--in-range {
+    border-radius: 0rem;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+}
+.filter-data .react-datepicker__day--selected:hover, .filter-data .react-datepicker__day--in-selecting-range:hover, .filter-data .react-datepicker__day--in-range:hover, 
+.filter-data .react-datepicker__month-text--selected:hover, .filter-data .react-datepicker__month-text--in-selecting-range:hover, .filter-data .react-datepicker__month-text--in-range:hover, 
+.filter-data .react-datepicker__quarter-text--selected:hover, .filter-data .react-datepicker__quarter-text--in-selecting-range:hover, .filter-data .react-datepicker__quarter-text--in-range:hover,
+.filter-data .react-datepicker__year-text--selected:hover, .filter-data .react-datepicker__year-text--in-selecting-range:hover, .filter-data .react-datepicker__year-text--in-range:hover {
+    background-color: var(--color-purple);
+    opacity: 0.8;
+}
+.filter-data .react-datepicker__month--selecting-range .react-datepicker__day--in-range , .filter-data .react-datepicker__month--selecting-range
+.filter-data .react-datepicker__month-text--in-range , .filter-data .react-datepicker__month--selecting-range
+.filter-data .react-datepicker__quarter-text--in-range , .filter-data .react-datepicker__month--selecting-range
+.filter-data .react-datepicker__year-text--in-range {
+    background-color: var(--color-purple);
+    color: var(--color-white);
+}
+.filter-data .react-datepicker__day:hover, .filter-data .react-datepicker__month-text:hover, .filter-data .react-datepicker__quarter-text:hover, .filter-data .react-datepicker__year-text:hover {
+    border-radius: 0rem;
+    background-color: var(--color-purple);
+    color: var(--color-gray500);
+}
+
+input[type="text"] {
+    background: var(--color-gray300);
+    border: 1px solid var(--color-gray200);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.apply-filter {
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 25px 5px 0 5px;
+    padding: 5px 30px;
+    background: linear-gradient(0deg, var(--color-gray500) 0%, var(--color-gray300) 100%);
+    border: 1px solid var(--color-gray300);
+}
+.apply-filter:hover {
+    filter: brightness(1.2);
+    color: var(--color-white);
+}
+.apply-filter i {
+    color: var(--color-light-gray);
+    align-content: center;
+}
+.apply-filter i:before {
+    font-size: 1.5rem;
+    margin: 10px 10px 0 0;
+    color: var(--color-light-gray200);
+}
+.filter-data select {
+    background-color: var(--color-gray300);
+    border-color: var(--color-gray200);
+    padding: 5px 30px;
+    border-radius: 5px;
+    display: block;
+    margin: 10px 0 0 0;
+}
+.filter-data select:focus-visible {
+    border: 1px solid var(--color-light-gray200);
+    border-radius: 5px;
+    outline: none;
+}
+.filter-data input:focus-visible {
+    border: 1px solid var(--color-light-gray200);
+    border-radius: 5px;
+    outline: none;
+}
+

@@ -1,0 +1,63 @@
+.totals {
+    grid-area: totals;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+    grid-template-areas: "balance last-payment last-entry";
+    margin: 0px 20px;
+}
+.total-box {
+    display: flex;
+    flex-flow: wrap ;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: var(--color-gray400);
+    border-radius: 15px;
+    margin: 10px;
+}
+.total-box > h1 {
+    font-size: 1.2rem;
+    font-family: var(--font-family-title);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+.total-box p {
+    margin: 0rem;
+}
+.total-box p.last-update {
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: var(--color-light-gray200);
+}
+.total-box p.last-update span {
+    font-size: 0.8rem;
+    color: var(--color-light-gray200);
+}
+.total-box p.value {
+    font-size: 1.5rem;
+    font-family: var(--font-family-title);
+    font-weight: 300;
+}
+.total-box p.note{
+    color: var(--color-light-gray200);
+}
+.total-box p.value span {
+    font-size: 2rem;
+    font-family: var(--font-family-title);
+    font-weight: 700;
+}
+.total-box span.date {
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+.current-balance {
+    grid-area: balance;
+}
+.total-last-payments {
+    grid-area: last-payment;
+}
+.total-last-entries {
+    grid-area: last-entry;
+}

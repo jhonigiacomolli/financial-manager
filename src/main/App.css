@@ -1,0 +1,59 @@
+:root {
+    /* Global Variables*/
+    --menu-height: 60px;
+    --logo-heigth: 250px;
+    --nav-width: 300px; 
+    --font-family-title: 'Ubuntu', sans-serif;
+    --font-family-text: 'Noto Sans JP', sans-serif;
+
+    /*Colours Variables*/
+    --color-white: #fff;
+    --color-light-gray: #cecece;
+    --color-light-gray200: #919191;
+    --color-light-gray300: #6f6f6f;
+    --color-orange: #ff3c00;
+    --color-light-purple: #c800ff;
+    --color-purple: #6a0785;
+    --color-opacity-purple: #380446ef;
+    --color-dark-purple: #380446;
+    --color-gray100: #353535;
+    --color-gray200: #2c2c2c;
+    --color-gray300: #1f1f1f;
+    --color-gray400: #151515;
+    --color-gray500: #0c0c0c;
+    --color-gray500-opacity: #0c0c0cef;
+    --color-black: #000;
+    --gradient-purple: linear-gradient(350deg, #380446 0%, #0f0013 100%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-size: 16px;
+    color: var(--color-light-gray);
+    font-family: var(--font-family-text);
+}
+
+.app {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: var(--nav-width) 1fr;
+    grid-template-rows: var(--menu-height) 1fr;
+    grid-template-areas: 
+        "menu header"
+        "menu content"
+        "menu content";
+}
+
+aside.menu {
+    grid-area: menu;
+}
+header.header {
+    grid-area: header;
+}
+main.content {
+    grid-area: content;
+}
+aside.logo {
+    grid-area: logo;
+}

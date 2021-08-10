@@ -37,9 +37,9 @@
 > Sou um desenvolvedor web com o foco em aplicações frontend, um apaixonado por programação desde a infancia. Com algumas experiências breves com linguagens backend como php, e desenvolvimento desktop com c#. Estou sempre em busca de evolução e de um bom desafio!!!
 
 <br>
-<code><img height="32" style="margin: 5px 10px -5px 40px" src="https://microsite.net.br/microsite/icones/langs/linkedin_icon.svg" alt="json-server"/><a href="https://www.linkedin.com/in/jhoni-giacomolli/">https://www.linkedin.com/in/jhoni-giacomolli</a></code>
+<code><img height="32" style="margin: 5px 10px -5px 40px" src="https://microsite.net.br/microsite/icones/langs/linkedin_icon.svg" alt="json-server"/></code>   <a href="https://www.linkedin.com/in/jhoni-giacomolli/">https://www.linkedin.com/in/jhoni-giacomolli</a>
 <br>
-<code><img height="32" style="margin: 20px 10px -5px 40px" src="https://microsite.net.br/microsite/icones/langs/github_icon.svg" alt="json-server"/><a href="https://github.com/jhonigiacomolli/">https://github.com/jhonigiacomolli</a></code>
+<code><img height="32" style="margin: 20px 10px -5px 40px" src="https://microsite.net.br/microsite/icones/langs/github_icon.svg" alt="json-server"/></code>   <a href="https://github.com/jhonigiacomolli/">https://github.com/jhonigiacomolli</a>
 <br>
 <br>
 <strong style="margin-left: 40px">Skills</strong>
